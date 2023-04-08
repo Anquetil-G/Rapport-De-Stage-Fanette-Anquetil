@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'cosima-medium-4';
+    src: url(./media/cosima-medium-4.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&family=Rubik&display=swap');
+/* ----------------------Global----------------------- */
+body {
+    margin: 0px;
+    text-align: center;
+}
+.li {
+    list-style-type: none;
+}
+/* ------------------------Nav Bar----------------------- */
+#navheaderhome {
+    overflow: hidden;
+    width: 100%;
+    background-color: #ff000085;
+}
+.classliulnavheaderhome {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0 4%;
+    display: inline;
+    text-align: center;
+    font-size: 1.1em;
+}
+.classliulnavheaderhome_titledownload {
+    padding: 7px 3em;
+    border-radius: 20px;
+    background: white;
+}
+/* ----------------------Major Home----------------------- */
+#majorhome {
+    padding: 100px 0 140px 0;
+    background-color: #1100ff85;
+}
+#titlemajorheaderhome {
+    font-family: 'cosima-medium-4';
+    font-size: 3.5em;
+    margin: 0;
+}
+#subtitlemajorheaderhome {
+    font-family: 'cosima-medium-4', 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    margin: 10px 30%;
+}
+#imglogogifmajorheaderhome {
+    margin-top: 20px;
+    background: url(./media/carréjaune.jpg);
+}
+.classbuttonsmajorheaderhome {
+    margin: 20px 40px;
+    width: 300px;
+    height: 43px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: #00ff0085;
+}
+/* ----------------------Lining lounge---------------------- */
+#presentationlininghome_lounge {
+    background-color: #3cff0085;
+    width: 100%;
+    height: 700px;
+}
+#imgimage_presentationlininghome_lounge {
+    background: url(./media/carrébleu.jpg);
+    float: left;
+    margin: 100px 0 0 175px;
+}
+#ptext_presentationlininghome_lounge {
+    float: right;
+    width: 30%;
+    font-size: 1.4em;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 295px 175px 0 0;
+}
+/* ----------------------Lining post---------------------- */
+#presentationlininghome_post {
+    background-color: #d400ff85;
+    width: 100%;
+    height: 700px;
+}
+#imgimage_presentationlininghome_post {
+    background: url(./media/carrérouge.jpg);
+    float: right;
+    margin: 100px 175px 0 0;
+}
+#ptext_presentationlininghome_post {
+    float: left;
+    width: 30%;
+    font-size: 1.4em;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 295px 0 0 175px;
+}
+/* ----------------------Lining customization---------------------- */
+#presentationlininghome_customization {
+    background-color: #ff000085;
+    width: 100%;
+    height: 700px;
+}
+#imgimage_presentationlininghome_customization {
+    background: url(./media/carréjaune.jpg);
+    float: left;
+    margin: 100px 0 0 175px;
+}
+#ptext_presentationlininghome_customization {
+    float: right;
+    width: 30%;
+    font-size: 1.4em;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 295px 175px 0 0;
+}
+/* ----------------------Footer---------------------- */
+#footerhome {
+    background-color: #242323;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+#middlefooterhome {
+    margin: 70px 0 0 25%;
+    width: 50%;
+    overflow: hidden;
+    padding: 20px 0;
+    border-top: 0.1rem solid #d0d3da;
+    border-bottom: 0.1rem solid #d0d3da;
+}
+.classlimiddlefooterhome {
+    display: inline;
+    margin: 0 20px;
+    font-size: 1.1em;
+    color: #d0d3da;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.classlibottomfooterhome {
+    margin-top: 50px;
+    color: #d0d3da;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
