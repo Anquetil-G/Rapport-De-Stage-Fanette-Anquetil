@@ -17,7 +17,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: url(./fond.jpg)fixed no-repeat;
+    background: url(/fond.jpg)fixed no-repeat;
     background-size: cover;
 }
 li {
