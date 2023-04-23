@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'Hatton700';
+    src: url(./Médias/PP\ Hatton\ Bold\ 700.otf) format('woff2');
+}
+@font-face {
+    font-family: 'Hatton500';
+    src: url(./Médias/PP\ Hatton\ Medium\ 500.otf) format('woff2');
+}
+@font-face {
+    font-family: 'Hatton200';
+    src: url(./Médias/PP\ Hatton\ Ultralight\ 200.otf) format('woff2');
+}
+/* ----------------------------------------Global */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./Médias/fond.jpg)fixed no-repeat;
+    background-size: cover;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* ----------------------------------------ul & li */
+#ul-page {
+    padding: 0;
+    margin: 0;
+}
+.img {
+    width: 707px;
+    height: 1000px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.li-page {
+    width: 707px;
+    height: 1000px;
+}
+#page-3 {
+    margin-top: -278px;
+}
+.div-page {
+    width: 707px;
+}
+#page-17 {
+    margin-bottom: 50px;
+}
+/* ----------------------------------------som */
+.p-som {
+    font-family: 'Hatton500';
+    text-transform: uppercase;
+    color: #5e5343;
+    font-size: 20.3px;
+    display: flex;
+    position: relative;
+    left: 142%;
+    width: fit-content;
+}
+.p-som:hover {
+    cursor: pointer;
+    font-size: 19.3px;
+    color: #5c5448;
+    transition: 0.4s;
+}
+#som-1 {
+    top: -504px;
+}
+#som-2 {
+    top: -410px;
+}
+#som-3 {
+    top: -310px;
+}
+#som-4 {
+    top: -199px;
+}
+#som-5 {
+    top: -110px;
+}
+/* ----------------------------------------btn-som */
+#btn-som {
+    position: fixed;
+    margin: 22px 0 0 20%;
+    width: 190px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #5e5343;
+    background-color: #D9D9D9;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: #5e5343;
+}
+#btn-som:hover {
+    width: 180px;
+    height: 36px;
+    transition: 0.4s;
+}
+/* ----------------------------------------media queries */
+@media screen and (max-width: 1867px) {
+    #btn-som {
+        margin: 22px 0 0 17%;
+    }
+    .p-som {
+        left: 925px;
+    }
+}
+@media screen and (max-width: 1816px) {
+    .p-som {
+        left: 900px;
+    }
+}
+@media screen and (max-width: 1765px) {
+    .p-som {
+        left: 875px;
+    }
+}
+@media screen and (max-width: 1714px) {
+    .p-som {
+        left: 850px;
+    }
+    #btn-som {
+        margin: 22px 0 0 14.5%;
+    }
+}
+@media screen and (max-width: 1663px) {
+    .p-som {
+        left: 825px;
+    }
+}
+@media screen and (max-width: 1612px) {
+    .p-som {
+        left: 800px;
+    }
+    #btn-som {
+        margin: 22px 0 0 11%;
+    }
+}
+@media screen and (max-width: 1561px) {
+    .p-som {
+        left: 775px;
+    }
+}
+@media screen and (max-width: 1510px) {
+    .p-som {
+        left: 750px;
+    }
+}
+@media screen and (max-width: 1459px) {
+    .p-som {
+        left: 725px;
+    }
+    #btn-som {
+        margin: 22px 0 0 7.5%;
+    }
+}
+@media screen and (max-width: 1408px) {
+    .p-som {
+        left: 700px;
+    }
+}
+@media screen and (max-width: 1357px) {
+    .p-som {
+        left: 675px;
+    }
+    #btn-som {
+        margin: 22px 0 0 3%;
+    }
+}
+@media screen and (max-width: 1306px) {
+    .p-som {
+        left: 650px;
+    }
+}
+@media screen and (max-width: 1255px) {
+    #btn-som {
+        margin: 18px 0 0 62%;
+        border: none;
+        background-color: #5e5343;
+        color: #D9D9D9;
+        z-index: 100;
+    }
+    .p-som {
+        left: 625px;
+    }
+}
+@media screen and (max-width: 1204px) {
+    .p-som {
+        left: 600px;
+    }
+}
+@media screen and (max-width: 1153px) {
+    .p-som {
+        left: 575px;
+    }
+}
+@media screen and (max-width: 1102px) {
+    .p-som {
+        left: 550px;
+    }
+}
+@media screen and (max-width: 1051px) {
+    .p-som {
+        left: 525px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .p-som {
+        left: 500px;
+    }
+}
+@media screen and (max-width: 949px) {
+    #btn-som {
+        margin: 18px 0 0 66%;
+    }
+    .p-som {
+        left: 475px;
+    }
+}
+@media screen and (max-width: 898px) {
+    .p-som {
+        left: 450px;
+    }
+}
+@media screen and (max-width: 847px) {
+    .p-som {
+        left: 425px;
+    }
+}
+@media screen and (max-width: 796px) {   /* ----------------------------------------- */
+    .img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .li-page {
+        width: fit-content;
+    }
+    .div-page {
+        width: 100%;
+        height: 134vw;
+        margin: 0 !important;
+    }
+    .p-som {
+        left: 49vw;
+        font-size: 21px;
+    }
+    #som-1 {
+        top: -104vw;
+    }
+    #som-2 {
+        top: -90vw;
+    }
+    #som-3 {
+        top: -76vw;
+    }
+    #som-4 {
+        top: -60vw;
+    }
+    #som-5 {
+        top: -49vw;
+    }
+    body {
+        background: #D9D9D9;
+    }
+    #btn-som {
+        margin: 18px 0 0 72%;
+    }
+}
+@media screen and (max-width: 721px) {
+    #som-1 {
+        top: -104vw;
+    }
+    #som-2 {
+        top: -91.5vw;
+    }
+    #som-3 {
+        top: -77vw;
+    }
+    #som-4 {
+        top: -63vw;
+    }
+    #som-5 {
+        top: -51vw;
+    }
+    #btn-som {
+        margin: 18px 0 0 68%;
+    }
+}
+@media screen and (max-width: 650px) {
+    #som-1 {
+        top: -104vw;
+    }
+    #som-2 {
+        top: -92vw;
+    }
+    #som-3 {
+        top: -79vw;
+    }
+    #som-4 {
+        top: -65vw;
+    }
+    #som-5 {
+        top: -54vw;
+    }    
+    .p-som {
+        font-size: 20px;
+    }
+    .p-som:hover {
+        cursor: pointer;
+        font-size: 18px;
+        color: #5c5448;
+        transition: 0.4s;
+    }
+    #btn-som {
+        margin: 18px 0 0 65%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #som-1 {
+        top: -105vw;
+    }
+    #som-2 {
+        top: -92vw;
+    }
+    #som-3 {
+        top: -79.5vw;
+    }
+    #som-4 {
+        top: -65.5vw;
+    }
+    #som-5 {
+        top: -54.5vw;
+    }
+    #btn-som {
+        margin: 18px 0 0 63%;
+    }
+}
+@media screen and (max-width: 570px) {
+    .p-som {
+        font-size: 19px;
+    }
+    #som-1 {
+        top: -105vw;
+    }
+    #som-2 {
+        top: -94vw;
+    }
+    #som-3 {
+        top: -81vw;
+    }
+    #som-4 {
+        top: -68vw;
+    }
+    #som-5 {
+        top: -57.5vw;
+    }
+    #btn-som {
+        margin: 18px 0 0 60%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .p-som {
+        font-size: 16.5px;
+    }
+    #som-5 {
+        top: -55vw;
+    }
+    #btn-som {
+        margin: 18px 0 0 50%;
+    }
+}
