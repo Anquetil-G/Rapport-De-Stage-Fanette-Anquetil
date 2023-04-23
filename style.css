@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Hatton700';
-    src: url(/PP\ Hatton\ Bold\ 700.otf) format('woff2');
+    src: url(./PP\ Hatton\ Bold\ 700.otf) format('woff2');
 }
 @font-face {
     font-family: 'Hatton500';
-    src: url(/PP\ Hatton\ Medium\ 500.otf) format('woff2');
+    src: url(./PP\ Hatton\ Medium\ 500.otf) format('woff2');
 }
 @font-face {
     font-family: 'Hatton200';
-    src: url(/PP\ Hatton\ Ultralight\ 200.otf) format('woff2');
+    src: url(./PP\ Hatton\ Ultralight\ 200.otf) format('woff2');
 }
 /* ----------------------------------------Global */
 html {
@@ -17,7 +17,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: url(/fond.jpg)fixed no-repeat;
+    background: url(./fond.jpg)fixed no-repeat;
     background-size: cover;
 }
 li {
@@ -366,7 +366,7 @@ a {
         margin: 18px 0 0 60%;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 501px) {
     .p-som {
         font-size: 13.5px;
     }
