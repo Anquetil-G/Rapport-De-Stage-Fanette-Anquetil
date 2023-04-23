@@ -366,7 +366,7 @@ a {
         margin: 18px 0 0 60%;
     }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 500px) {
     .p-som {
         font-size: 13.5px;
     }
