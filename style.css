@@ -377,37 +377,3 @@ a {
         margin: 18px 0 0 40%;
     }
 }
-@media screen and (max-width: 400px) {
-    #som-1 {
-    top: -103.5vw;
-    }
-    #som-2 {
-        top: -92vw;
-    }
-    #som-3 {
-        top: -78vw;
-    }
-    #som-4 {
-        top: -64.5vw;
-    }
-    #som-5 {
-        top: -51.5vw;
-    }
-}
-@media screen and (max-width: 300px) {
-    #som-1 {
-    top: -103vw;
-    }
-    #som-2 {
-        top: -91vw;
-    }
-    #som-3 {
-        top: -76vw;
-    }
-    #som-4 {
-        top: -62.5vw;
-    }
-    #som-5 {
-        top: -49.5vw;
-    }
-}
