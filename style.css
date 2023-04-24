@@ -216,7 +216,7 @@ a {
         left: 500px;
     }
 }
-@media screen and (max-width: 949px) {          -------------------------------
+@media screen and (max-width: 949px) {
     #btn-som {
         margin: 18px 0 0 66%;
     }
