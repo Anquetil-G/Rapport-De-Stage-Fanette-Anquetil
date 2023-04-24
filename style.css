@@ -377,20 +377,20 @@ a {
         margin: 18px 0 0 40%;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
     #som-1 {
-        top: -105.5vw;
+    top: -104.5vw;
     }
     #som-2 {
-        top: -95vw;
+        top: -93vw;
     }
     #som-3 {
-        top: -83vw;
+        top: -79vw;
     }
     #som-4 {
-        top: -70vw;
+        top: -66vw;
     }
     #som-5 {
-        top: -65.5vw;
+        top: -53.5vw;
     }
 }
