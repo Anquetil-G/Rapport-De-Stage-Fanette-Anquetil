@@ -216,12 +216,34 @@ a {
         left: 500px;
     }
 }
-@media screen and (max-width: 949px) {
+@media screen and (max-width: 949px) {          -------------------------------
     #btn-som {
         margin: 18px 0 0 66%;
     }
     .p-som {
         left: 475px;
+    }
+    #btn-som:hover {
+    width: 190px;
+    height: 40px;
+    transition: none;
+    }
+    #btn-som:hover, #btn-som:active {
+    width: 180px;
+    height: 36px;
+    transition: 0.4s;
+    }
+    .p-som:hover {
+    cursor: default;
+    color: #5e5343;
+    font-size: 20.3px;
+    transition: none;
+    }
+    .p-som:hover, .p-som:active {
+    cursor: pointer;
+    font-size: 19.3px;
+    color: #5c5448;
+    transition: 0.4s;
     }
 }
 @media screen and (max-width: 898px) {
@@ -313,7 +335,7 @@ a {
     .p-som {
         font-size: 20px;
     }
-    .p-som:hover {
+    .p-som:hover, .p-som:active {
         cursor: pointer;
         font-size: 18px;
         color: #5c5448;
